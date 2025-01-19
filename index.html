@@ -14,9 +14,10 @@
 	<script src="./assets/scripts.min.js" defer></script>
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 	<script src="./assets/keyboardClick.min.js" defer></script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -30,43 +31,53 @@
 	<meta property="og:url" content="https://jo8dev.github.io/Nina-Carducci-Dev/">
 	<meta property="og:image"
 		content="https://jo8dev.github.io/Nina-Carducci-Dev/assets/images/Nina-Carducci-Card.avif">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:locale" content="fr_FR">
 	<meta property="og:description"
-		content="Découvrez Nina Carducci, photographe freelance basée à Bordeaux et active en Île-de-France. 
-		Spécialisée en photographie de concerts, entreprises, mariages et portraits, Nina propose des prestations adaptées aux particuliers, entreprises et associations.">
-	<meta property="business:contact_data:street_address" content="68 avenue Alsace-Lorraine">
-	<meta property="business:contact_data:locality" content="Bordeaux">
-	<meta property="business:contact_data:region" content="Nouvelle Aquitaine">
-	<meta property="business:contact_data:postal_code" content="33200">
-	<meta property="business:contact_data:country_name" content="France">
+		content="Découvrez Nina Carducci, photographe freelance basée à Bordeaux et active en Île-de-France. Spécialisée en photographie de concerts, entreprises, mariages et portraits.">
+	<meta property="og:site_name" content="Nina Carducci Photographie">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux et Île-de-France">
-	<meta name="twitter:site" content="@elonmusk">
+	<meta name="twitter:site" content="@ninacarducci_photo">
 	<meta name="twitter:description"
 		content="Découvrez Nina Carducci, photographe pro (Bordeaux/IDF). Concerts, mariages, portraits, entreprises. Shoots dès 350€, retouches 50€/photo, albums 400€, déplacement inclus. Immortalisez chaque instant!">
-	<meta name="twitter:image"
-		content="https://jo8dev.github.io/Nina-Carducci-Dev/assets/images/nina.webp">
+	<meta name="twitter:image" content="https://jo8dev.github.io/Nina-Carducci-Dev/assets/images/nina.webp">
 	<meta name="twitter:image:alt" content="Carte Représentant Nina Carducci la photographe">
 
 	<script type="application/ld+json">
 		{
-		  "@context": "https://schema.org",
-		  "@type": "LocalBusiness",
-		  "additionalType:" : "Photograph",
-		  "name": "Nina Carducci",
-		  "image": "./assets/images/nina.webp",
-		  "address": {
-			"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"postalCode": "33200",
-				"addressLocality": "Bordeaux",
-				"addressCountry": "FR"
-			},	  
-		  "telephone": "+33 5 56 67 78 89",
-		  "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
-		  "currenciesAccepted": "EUR",
-		  "priceRange": "50€-400€"
-		}
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"jobTitle": "Photographe freelance",
+			"image": "https://jo8dev.github.io/Nina-Carducci-Dev/assets/images/nina.webp",
+			"description": "Studio de photographie basé à Bordeaux, spécialisé en portraits, mariages et événements.",
+			"url": "https://jo8dev.github.io/Nina-Carducci-Dev/",
+			"address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "68 avenue Alsace-Lorraine",
+			  "postalCode": "33200",
+			  "addressLocality": "Bordeaux",
+			  "addressCountry": "FR"
+			},
+			"telephone": "+33 5 56 67 78 89",
+			"priceRange": "50€-400€",
+			"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+			"contactPoint": {
+			  "@type": "ContactPoint",
+			  "telephone": "+33 5 56 67 78 89",
+			  "contactType": "customer service",
+			  "areaServed": "FR",
+			  "availableLanguage": "French"
+			},
+			"sameAs": [
+			  "https://www.instagram.com/ninacarducci.photo",
+			  "https://www.facebook.com/NinaCarducciPhotographie",
+			  "https://twitter.com/ninacarducci_photo"
+			]
+		  }
 		</script>
 </head>
 
@@ -80,7 +91,7 @@
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="Logo instagram" width="20"
+						target="_blank"><img src="assets/images/instagram.png" alt="Suivez-moi sur Instagram" width="20"
 							height="20"></a>
 				</li>
 			</ul>
@@ -101,8 +112,7 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="./assets/images/slider/m-ryoji-iwata.avif" class="d-block w-100"
-							alt="un homme en costume traversant un passage piéton" width="1920" height="888"
-							loading="eager">
+							alt="un homme en costume traversant un passage piéton" width="1920" height="888">
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/nicholas-green.avif" class="d-block w-100"
@@ -271,6 +281,7 @@
 		</section>
 	</main>
 	<footer>
+		<p>&copy; 2025 Nina Carducci - Tous droits réservés.</p>
 	</footer>
 
 </body>
